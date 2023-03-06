@@ -9,4 +9,5 @@ app_name = 'interactive_album_player'
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('webplayer/', views.webPlayer, name='webplayer'),
     ]
